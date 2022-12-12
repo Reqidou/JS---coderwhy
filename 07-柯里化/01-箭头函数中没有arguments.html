@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<!-- <script src="./07-柯里化/02-柯里化过程的实现.js"></script> -->
+<script src="./07-柯里化/04-组合函数的实现过程.js"></script>
+<script>
+    function foo() {
+        console.log(arguments);
+        var bar = () => {
+            console.log(arguments);
+        }
+        return bar
+    }
+
+    var fn = foo(123)
+    fn()
+</script>
+</html>
