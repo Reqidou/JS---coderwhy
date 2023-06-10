@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 var obj = {name: '张三丰', msg: '呐呐呐'}
 function foo() {
   function bar() {

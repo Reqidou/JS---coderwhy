@@ -21,3 +21,5 @@ Object.keys(obj).forEach(key => {
 
 obj.name = 'zx'
 console.log(obj.name);
+
+
